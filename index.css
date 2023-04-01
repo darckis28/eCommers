@@ -1,0 +1,112 @@
+/* header */
+.container-nav {
+  width: 90%;
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  padding-top: 16px;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo__img {
+  width: 60px;
+}
+.logo__titulo {
+  font-size: 1.5em;
+  font-weight: 700;
+  color: var(--color-titulo);
+}
+.logo__titulo span {
+  color: var(--color-verde);
+}
+.caja__search {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+.search {
+  width: 45%;
+  height: 40px;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 0 8px;
+  outline: none;
+  border: none;
+  color: var(--color-titulo);
+  background: var(--color-fondo-claro);
+}
+.search.search::-webkit-input-placeholder {
+  font-size: 16px;
+  font-weight: 700;
+}
+.login {
+  height: 40px;
+  width: 120px;
+  font-size: 17px;
+  font-size: 300;
+  background: transparent;
+  cursor: pointer;
+  border: 3px solid var(--color-verde);
+  color: var(--color-verde);
+}
+.login:hover {
+  background: var(--color-verde);
+  color: var(--color-fondo);
+}
+/* promocion */
+.container-descuento {
+  width: 100%;
+  height: 400px;
+  background: url("./assets/img/mario.jpg") no-repeat center/cover;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+.descuento__titulo {
+  font-size: 3em;
+  font-weight: 700;
+  margin-left: 30px;
+  color: var(--color-titulo);
+}
+.descuento__descripcion {
+  font-size: 1em;
+  font-weight: 500;
+  margin-left: 30px;
+  color: var(--color-titulo);
+}
+.descuento__boton {
+  display: block;
+  width: 150px;
+  height: 40px;
+  margin: 10px 30px 20px 30px;
+  font-size: 18px;
+  font-weight: 400;
+  cursor: pointer;
+  border: none;
+  background: var(--color-verde);
+  color: var(--color-titulo);
+}
+.descuento__boton:hover {
+  background: var(--color-titulo);
+  color: var(--color-verde);
+}
+/* main  */
+.box-categoria{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+.categoria__titulo{
+  font-size: 28px;
+  font-weight: 500;
+  color:var(--color-titulo)
+}
+.categoria__link{
+  text-decoration: none;
+  color: var(--color-verde);
+}

@@ -1,0 +1,32 @@
+.producto__box {
+  width: 90%;
+  display: flex;
+  margin: 20px auto;
+  gap: 20px;
+}
+.producto__item {
+  width: 176px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.producto__img {
+  width: 100%;
+}
+.producto__nombre {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--color-titulo);
+}
+.producto__precio {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--color-titulo);
+}
+.producto__link{
+    text-decoration: none;
+    color: var(--color-verde);
+}
+.producto__link:hover{
+    text-decoration: underline;
+}
