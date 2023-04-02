@@ -1,11 +1,12 @@
 .producto__box {
   width: 90%;
   display: flex;
+  flex-wrap: wrap;
   margin: 20px auto;
   gap: 20px;
 }
 .producto__item {
-  width: 176px;
+  width: 175px;
   display: flex;
   flex-direction: column;
   gap: 3px;

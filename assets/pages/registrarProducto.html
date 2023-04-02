@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="/assets/img/bomba.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="/reset.css" />
+    <link rel="stylesheet" href="/base.css" />
+    <link rel="stylesheet" href="/index.css" />
+    <link rel="stylesheet" href="/assets/css/registrarProducto.css" />
+    <title>Registrar Product</title>
+  </head>
+  <body>
+    <header class="container-nav">
+      <a href="/index.html" class="logo">
+        <img
+          class="logo__img"
+          src="/assets/img/logo.png"
+          alt="logo de eCommers"
+        />
+        <h1 class="logo__titulo">Boom<span>Commer</span></h1>
+      </a>
+      <div class="caja__search">
+        <input class="search" type="text" placeholder="¿Que deseas buscar?" />
+        <button class="login">Login</button>
+      </div>
+    </header>
+    <main>
+      <section class="container-resgistrar">
+        <form action="" data-form-register class="register">
+          <h2 class="register__titulo">Agregar nuevo producto</h2>
+          <label for="" class="register__context">Nombre del producto</label>
+          <input type="text" class="register__entrada" placeholder="Nombre"  data-nombre-prod/>
+          <label for="" class="register__context">Categoria</label>
+          <select class="register__categoria"  data-categoria-prod>
+            <option value="poster">Posters</option>
+            <option value="tasas">Tasas</option>
+            <option value="diversos">Diversos</option>
+          </select>
+          <label for="" class="register__context">Imagen del producto</label>
+          <input type="text" class="register__entrada" placeholder="Url del la imagen 400x400"  data-img-prod/>
+          <label for="" class="register__context">Precio</label>
+          <input type="text" class="register__entrada"placeholder="40"  data-precio-prod/>
+          <label for="" class="register__context">Descripcion</label>
+          <textarea class="register__descripcion" placeholder="Describe el producto" data-descrip-prod></textarea>
+          <button class="register__btn">Agregar Producto</button>
+        </form>
+      </section>
+    </main>
+
+    <section class="contacto">
+      <div class="logo_footer">
+        <img
+          class="logo__img"
+          src="/assets/img/logo.png"
+          alt="logo de eCommers"
+        />
+        <h1 class="logo__titulo">Boom<span>Commer</span></h1>
+      </div>
+      <div class="container-form">
+        <form action="" class="contactar">
+          <h3 class="contactar__titulo">Hable con nosotros</h3>
+          <label class="contactar__label" for="name"> Nombre</label>
+          <input class="contactar__input" type="text" placeholder="nombre" />
+          <label class="contactar__label" for="mensaje"
+            >Deja un comentario</label
+          >
+          <textarea
+            class="contactar__textarea"
+            name="mensaje"
+            id=""
+            placeholder="Mensaje...."
+          ></textarea>
+          <button class="contactar__btn" type="submit">Enviar mensaje</button>
+        </form>
+      </div>
+    </section>
+    <footer class="container__footer">
+      <h3 class="footer__title">Desarrollado por Andi Aguirre</h3>
+      <span class="footer__anho">2023</span>
+    </footer>
+
+    <script
+      src="https://kit.fontawesome.com/30a542c1ff.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.2.0/uuid.min.js"
+      integrity="sha512-X0CJvcClD8EXFn5Oq8BD5lIsznKDfxb0Sf9Wr8MCCTyAEWaAAxr0Jvm3qyofsmN7eSHMZ0PPQGjVKroLAfexrA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script type="module" src="/assets/js/registarProducto.js"></script>
+  </body>
+</html>

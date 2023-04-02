@@ -1,0 +1,66 @@
+{
+  "user": [
+    {
+      "usuario": "andi28",
+      "password": "12345678"
+    }
+  ],
+  "producto": [
+    {
+      "nombre": "Poster ania spy",
+      "categoria": "poster",
+      "img": "https://i.ebayimg.com/images/g/XKsAAOSwD2BiY6bl/s-l400.jpg",
+      "precio": "50",
+      "descripcion": "poster echo a mano y enmarado",
+      "id": "7c9b5af6-2707-47c6-abaa-cb9f3ff45fda"
+    },
+    {
+      "nombre": "Tasa de Kakashi",
+      "categoria": "tasas",
+      "img": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/61XoKtGkOtL._AC_UL400_.jpg",
+      "precio": "35",
+      "descripcion": "tasa de kakashi de naruto shipuden, personalizado",
+      "id": "cf6fc043-475d-4f56-8989-304c8ace2b65"
+    },
+    {
+      "nombre": "figura de loli",
+      "categoria": "diversos",
+      "img": "https://gothamotaku.com/wp-content/uploads/2021/02/ES66331-400x400.jpg",
+      "precio": "85",
+      "descripcion": "figura de loli con vibrador incluido 3 temperaturas",
+      "id": "b91b0be7-815d-49a0-9a3e-1dc3112c78b7"
+    },
+    {
+      "nombre": "figura de demon slayer",
+      "categoria": "diversos",
+      "img": "https://image.made-in-china.com/155f0j00MSqhtCgnbouT/OEM-Japanese-Cartoon-Character-Anime-Figure-Demon-Slayer-PVC-Standing-Figure-Toy.jpg",
+      "precio": "105",
+      "descripcion": "figura de 50 cm ",
+      "id": "cdd66f9e-00b6-4ef2-8531-3161db502a6a"
+    },
+    {
+      "nombre": "Anillo de poder",
+      "categoria": "diversos",
+      "img": "https://cdn-media.glamira.com/media/product/newgeneration/view/1/sku/cassant-r/diamond/blackdiamond_AAA/alloycolour/yellow/accent/black/ceramic/black.jpg?width=400&height=400",
+      "precio": "60",
+      "descripcion": "anillo con el cual seras un superHeroe pero de tus sueños",
+      "id": "86b0fa14-bf3f-4269-b78f-7db35e748372"
+    },
+    {
+      "nombre": "Tasa de goku",
+      "categoria": "tasas",
+      "img": "https://crackenshop.com/cache/storage/2023/January/week1/2551073_taza_con_portavasos_dragon_ball_super_cracken_shop_%281%29-400x400.jpg",
+      "precio": "45",
+      "descripcion": "tasa personalizada de dragon ball",
+      "id": "26b5db53-e5e4-48d5-90ee-42ffab006edd"
+    },
+    {
+      "nombre": "Figura de Full metal",
+      "categoria": "poster",
+      "img": "https://gothamotaku.com/wp-content/uploads/2020/06/Estatua-Roy-Mustang.-The-flame-Alchemist.-Fullmetal-Alchemist.-Oniri-Creations-400x400.png",
+      "precio": "125",
+      "descripcion": "figura personalizada de Full metal",
+      "id": "7ee5dc50-82ba-4bed-a8c1-a78b56c5f6ba"
+    }
+  ]
+}

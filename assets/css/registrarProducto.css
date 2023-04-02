@@ -1,0 +1,65 @@
+.container-resgistrar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /* height: 70vh; */
+}
+.register {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 18px 0;
+}
+.register__titulo {
+  font-size: 1.8em;
+  font-weight: 700;
+  color: var(--color-titulo);
+}
+.register__context {
+  color: var(--color-titulo);
+  font-size: 18px;
+}
+.register__entrada,
+.register__categoria,
+.register__descripcion {
+  padding: 8px;
+  border-radius: 10px;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  color: var(--color-titulo);
+  background: var(--color-fondo-claro);
+}
+.register__btn {
+  width: 40%;
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: var(--color-verde);
+  color: var(--color-titulo);
+}
+.register__btn:hover {
+  background: var(--color-titulo);
+  color: var(--color-verde);
+}
+.register__entrada::placeholder,
+.register__descripcion::placeholder,
+.register__descripcion::placeholder{
+    color: var(--color-titulo);
+}
+.register__descripcion {
+  resize: none;
+  height: 120px;
+  font-family: var(--fuente);
+}
+@media (max-width: 450px) {
+  .register {
+    width: 95%;
+  }
+  .register__btn {
+    width: 70%;
+  }
+}

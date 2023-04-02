@@ -12,19 +12,19 @@
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="base.css" />
     <link rel="stylesheet" href="index.css" />
-    <link rel="stylesheet" href="/assets/css/productos.css">
+    <link rel="stylesheet" href="/assets/css/productos.css" />
     <title>BoomCommer|Home</title>
   </head>
   <body>
     <header class="container-nav">
-      <div class="logo">
+      <a href="index.html" class="logo">
         <img
           class="logo__img"
           src="./assets/img/logo.png"
           alt="logo de eCommers"
         />
         <h1 class="logo__titulo">Boom<span>Commer</span></h1>
-      </div>
+      </a>
       <div class="caja__search">
         <input class="search" type="text" placeholder="¿Que deseas buscar?" />
         <button class="login">Login</button>
@@ -37,92 +37,73 @@
       </p>
       <button class="descuento__boton">Ver productos</button>
     </section>
-    <main>
-        <section class="container-categoria">
-            <div class="box-categoria">
-                <h2 class="categoria__titulo">Posters</h2>
-                    <a  class="categoria__link" href="#">Ver todo <i class="fa-solid fa-arrow-right"></i></a>
-            </div>
-            <div class="container__productos">
-                <ul class="producto__box">
-                    <li class="producto__item">
-                        <img src="/assets/img/chica.jpg" class="producto__img" alt="">
-                        <h3 class="producto__nombre">Producto283</h3>
-                        <span class="producto__precio">$50.00</span>
-                        <a href="#" class="producto__link">Ver producto</a>
-                        
-                    </li>
-                    <li class="producto__item">
-                        <img src="/assets/img/chica.jpg" class="producto__img" alt="">
-                        <h3 class="producto__nombre">Producto283</h3>
-                        <span class="producto__precio">$50.00</span>
-                        <a href="#" class="producto__link">Ver producto</a>
-                        
-                    </li>
-                    <li class="producto__item">
-                        <img src="/assets/img/chica.jpg" class="producto__img" alt="">
-                        <h3 class="producto__nombre">Producto283</h3>
-                        <span class="producto__precio">$50.00</span>
-                        <a href="#" class="producto__link">Ver producto</a>
-                        
-                    </li>
-                    <li class="producto__item">
-                        <img src="/assets/img/chica.jpg" class="producto__img" alt="">
-                        <h3 class="producto__nombre">Producto283</h3>
-                        <span class="producto__precio">$50.00</span>
-                        <a href="#" class="producto__link">Ver producto</a>
-                        
-                    </li>
-                    <li class="producto__item">
-                        <img src="/assets/img/chica.jpg" class="producto__img" alt="">
-                        <h3 class="producto__nombre">Producto283</h3>
-                        <span class="producto__precio">$50.00</span>
-                        <a href="#" class="producto__link">Ver producto</a>
-                        
-                    </li>
-                </ul>
-
-            </div>
-        </section>
-        <section class="container-categoria">
-            <div class="box-categoria">
-                <h2 class="categoria__titulo">Tasas</h2>
-                    <a  class="categoria__link" href="#">Ver todo <i class="fa-solid fa-arrow-right"></i></a>
-            </div>
-            <div class="container__productos">
-                <ul class="producto__box">
-                    <li class="producto__item">
-                        <img src="/assets/img/chica.jpg" class="producto__img" alt="">
-                        <h3 class="producto__nombre">Producto283</h3>
-                        <span class="producto__precio">$50.00</span>
-                        <a href="#" class="producto__link">Ver producto</a>
-                        
-                    </li>
-                </ul>
-
-            </div>
-        </section>
-        <section class="container-categoria">
-            <div class="box-categoria">
-                <h2 class="categoria__titulo">Diversos</h2>
-                    <a  class="categoria__link" href="#">Ver todo <i class="fa-solid fa-arrow-right"></i></a>
-            </div>
-            <div class="container__productos">
-                <ul class="producto__box">
-                    <li class="producto__item">
-                        <img src="/assets/img/chica.jpg" class="producto__img" alt="">
-                        <h3 class="producto__nombre">Producto283</h3>
-                        <span class="producto__precio">$50.00</span>
-                        <a href="#" class="producto__link">Ver producto</a>
-                        
-                    </li>
-                </ul>
-
-            </div>
-        </section>
+    <main data-container-categoria>
+      <section class="container-categoria">
+        <div class="box-categoria">
+          <h2 class="categoria__titulo">Posters</h2>
+          <a class="categoria__link" href="#"
+            >Ver todo <i class="fa-solid fa-arrow-right"></i
+          ></a>
+        </div>
+        <div class="container__productos">
+          <ul class="producto__box" data-catPoster></ul>
+        </div>
+      </section>
+      <section class="container-categoria">
+        <div class="box-categoria">
+          <h2 class="categoria__titulo">Tasas</h2>
+          <a class="categoria__link" href="#"
+            >Ver todo <i class="fa-solid fa-arrow-right"></i
+          ></a>
+        </div>
+        <div class="container__productos">
+          <ul class="producto__box" data-catTasas></ul>
+        </div>
+      </section>
+      <section class="container-categoria">
+        <div class="box-categoria">
+          <h2 class="categoria__titulo">Diversos</h2>
+          <a class="categoria__link" href="#"
+            >Ver todo <i class="fa-solid fa-arrow-right"></i
+          ></a>
+        </div>
+        <div class="container__productos">
+          <ul class="producto__box" data-catDiver></ul>
+        </div>
+      </section>
     </main>
-    <footer></footer>
+    <section class="contacto">
+        <div class="logo_footer">
+          <img
+            class="logo__img"
+            src="./assets/img/logo.png"
+            alt="logo de eCommers"
+          />
+          <h1 class="logo__titulo">Boom<span>Commer</span></h1>
+        </div>
+        <div class="container-form">
+          <form action="" class="contactar">
+            <h3 class="contactar__titulo" >Hable con nosotros</h3>
+            <label  class="contactar__label" for="name"> Nombre</label>
+            <input class="contactar__input"type="text" placeholder="nombre">
+            <label class="contactar__label" for="mensaje">Deja un comentario</label>
+            <textarea class="contactar__textarea" name="mensaje" id="" placeholder="Mensaje...."></textarea>
+            <button class="contactar__btn" type="submit">Enviar mensaje</button>
+          </form>
+        </div>
+     
+      
+    </section>
+    <footer class="container__footer">
+      <h3 class="footer__title">Desarrollado por Andi Aguirre</h3>
+      <span class="footer__anho">2023</span>
+    </footer>
 
-    <script src="https://kit.fontawesome.com/30a542c1ff.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/30a542c1ff.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
+
+  <script type="module" src="/assets/js/CrearProductos.js"></script>
 </html>
