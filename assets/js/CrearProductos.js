@@ -1,6 +1,6 @@
 import { Datos } from "./base.js";
 
-const crearNewProducto = (img, nombre, costo) => {
+ export const crearNewProducto = (img, nombre, costo) => {
   const producto = document.createElement("li");
   producto.classList.add("producto__item");
   const contenido = `
@@ -17,7 +17,6 @@ const crearNewProducto = (img, nombre, costo) => {
 const posters = document.querySelector("[data-catPoster]");
 const tasas = document.querySelector("[data-catTasas]");
 const diversos = document.querySelector("[data-catDiver]");
-
 Datos.createPoducts()
   .then((data) => {
     data.forEach(({ categoria, nombre, precio, img }) => {
@@ -27,14 +26,11 @@ Datos.createPoducts()
       categoria === "tasas" && tasas.children.length < 6
         ? tasas.appendChild(crearNewProducto(img, nombre, precio))
         : "";
-      categoria === "diversos" && diversos.children.length <6
+      categoria === "diversos" && diversos.children.length < 6
         ? diversos.appendChild(crearNewProducto(img, nombre, precio))
         : "";
     });
   })
   .catch((err) => {
-    const errorDeProductos = document.querySelector("[data-container-categoria]");
-    errorDeProductos.innerHTML=`
-    <p class="error">☢☢ Ocurrio algo vuelva luego ☢☢</p>
-    `
+    console.log(err);
   });

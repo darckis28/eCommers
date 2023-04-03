@@ -18,6 +18,9 @@
   font-size: 14px;
   font-weight: 400;
   color: var(--color-titulo);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .producto__precio {
     font-size: 18px;

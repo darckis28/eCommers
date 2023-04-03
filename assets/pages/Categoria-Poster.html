@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/reset.css" />
+    <link rel="stylesheet" href="/base.css" />
+    <link rel="stylesheet" href="/index.css" />
+    <link rel="stylesheet" href="/assets/css/productos.css" />
+    <title>Posters</title>
+  </head>
+  <body>
+    <header class="container-nav">
+      <a href="/index.html" class="logo">
+        <img
+          class="logo__img"
+          src="/assets/img/logo.png"
+          alt="logo de eCommers"
+        />
+        <h1 class="logo__titulo">Boom<span>Commer</span></h1>
+      </a>
+      <div class="caja__search">
+        <input class="search" type="text" placeholder="¿Que deseas buscar?" />
+        <button class="login">Login</button>
+      </div>
+    </header>
+    <main>
+        <section class="container-categoria">
+            <div class="box-categoria">
+              <h2 class="categoria__titulo">Posters</h2>
+            </div>
+            <div class="container__productos">
+              <ul class="producto__box" data-catTasasComplet></ul>
+            </div>
+          </section>
+    </main>
+
+    <section class="contacto">
+      <div class="logo_footer">
+        <img
+          class="logo__img"
+          src="/assets/img/logo.png"
+          alt="logo de eCommers"
+        />
+        <h1 class="logo__titulo">Boom<span>Commer</span></h1>
+      </div>
+      <div class="container-form">
+        <form action="" class="contactar">
+          <h3 class="contactar__titulo">Hable con nosotros</h3>
+          <label class="contactar__label" for="name"> Nombre</label>
+          <input class="contactar__input" type="text" placeholder="nombre" />
+          <label class="contactar__label" for="mensaje"
+            >Deja un comentario</label
+          >
+          <textarea
+            class="contactar__textarea"
+            name="mensaje"
+            id=""
+            placeholder="Mensaje...."
+          ></textarea>
+          <button class="contactar__btn" type="submit">Enviar mensaje</button>
+        </form>
+      </div>
+    </section>
+    <footer class="container__footer">
+      <h3 class="footer__title">Desarrollado por Andi Aguirre</h3>
+      <span class="footer__anho">2023</span>
+    </footer>
+
+    <script
+      src="https://kit.fontawesome.com/30a542c1ff.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+
+  <script type="module" src="/assets/js/Posters.js"></script>
+</html>
