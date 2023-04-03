@@ -27,7 +27,7 @@ Datos.createPoducts()
       categoria === "tasas" && tasas.children.length < 6
         ? tasas.appendChild(crearNewProducto(img, nombre, precio))
         : "";
-      categoria === "diversos" && tasas.children.length < 6
+      categoria === "diversos" && diversos.children.length <6
         ? diversos.appendChild(crearNewProducto(img, nombre, precio))
         : "";
     });

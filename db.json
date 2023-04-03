@@ -56,11 +56,123 @@
     },
     {
       "nombre": "Figura de Full metal",
-      "categoria": "poster",
+      "categoria": "diversos",
       "img": "https://gothamotaku.com/wp-content/uploads/2020/06/Estatua-Roy-Mustang.-The-flame-Alchemist.-Fullmetal-Alchemist.-Oniri-Creations-400x400.png",
       "precio": "125",
       "descripcion": "figura personalizada de Full metal",
       "id": "7ee5dc50-82ba-4bed-a8c1-a78b56c5f6ba"
+    },
+    {
+      "nombre": "Figura ban de Nanatsu",
+      "categoria": "diversos",
+      "img": "https://gothamotaku.com/wp-content/uploads/2019/11/Estatua-Ban-y-Elaine.-Seven-Deadly-Sins-Nanatsu-No-Taizai.-Kitsune-1-400x400.png",
+      "precio": "58",
+      "descripcion": "figura de 80cm de ban y su germa",
+      "id": "2817692a-8efd-4625-93b8-8d49a61545d4"
+    },
+    {
+      "nombre": "Figura de Inuyasha del monje miroku",
+      "categoria": "diversos",
+      "img": "https://akihabarna.com/min/img/productos/pack%20inuyasha.jpg",
+      "precio": "200",
+      "descripcion": "monje miroku y su mujer",
+      "id": "a20daef5-4886-46cf-aee1-af8f7fc9cddf"
+    },
+    {
+      "nombre": "Figura de Goku",
+      "categoria": "diversos",
+      "img": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/51g7O5k5IAL._AC_UL400_.jpg",
+      "precio": "85",
+      "descripcion": "figura de goku peleando",
+      "id": "711d1e40-bb76-4106-8bbd-8598d375efa1"
+    },
+    {
+      "nombre": "Figura de gokuy vegeta ssj",
+      "categoria": "diversos",
+      "img": "https://lafrikileria.com/118654-thickbox_default/set-de-figuras-dragon-ball-ssgss-goku-y-vegeta-ichibansho.jpg",
+      "precio": "154",
+      "descripcion": "goku y vegeta super sjj blue de 85cm",
+      "id": "ce249a02-0f33-4b86-a412-14fd7c69ef33"
+    },
+    {
+      "nombre": "Figura Superman vs Batman",
+      "categoria": "diversos",
+      "img": "https://watarishop.com/wp-content/uploads/2022/03/Figuras-Superman-Armored-Batman-Multiverse-DC-Comics-18cm-figuras-400x400.jpg",
+      "precio": "594",
+      "descripcion": "batman vs superman figura",
+      "id": "4492e9d7-6bbe-4b64-8807-7ddd30173263"
+    },
+    {
+      "nombre": "Poster de Deadpool",
+      "categoria": "poster",
+      "img": "https://salvaespin.com/wp-content/uploads/2019/09/PST011_01-1-400x400.jpg",
+      "precio": "59",
+      "descripcion": "rico y sensual deadpool",
+      "id": "2da14179-df71-48e3-9ee6-87393a8e96fc"
+    },
+    {
+      "nombre": "Poster de RataTuil",
+      "categoria": "poster",
+      "img": "https://target.scene7.com/is/image/Target/GUEST_c15264cc-a0b4-4b5b-9208-fab28db9e6cc",
+      "precio": "98",
+      "descripcion": "fabuloso ratatuil poster de 50cm",
+      "id": "e43fb9e9-8983-48c0-96b7-c0eee6f85eef"
+    },
+    {
+      "nombre": "Poster de los Hombre araña",
+      "categoria": "poster",
+      "img": "https://i.pinimg.com/736x/41/d0/12/41d012db42db7e2c3ee9b46d70729c7e.jpg",
+      "precio": "128",
+      "descripcion": "poster de los hombre araña en accion",
+      "id": "a5bc3228-afca-477a-8be1-a3911dcbf227"
+    },
+    {
+      "nombre": "poster de Dragon Ball",
+      "categoria": "poster",
+      "img": "https://d344g4zxafvvnb.cloudfront.net/assets/27/3f/f0/f8/cuadro-de-dragon-ball-personajes.png",
+      "precio": "154",
+      "descripcion": "poster de dragon ball firmado por su creador stan lee",
+      "id": "401157d0-799c-4906-9f0f-ed1b72e3741c"
+    },
+    {
+      "nombre": "Poster de Mario Bros",
+      "categoria": "poster",
+      "img": "https://www.passline.com/imagenes/eventos/super-mario-bros-la-pelicula-doblada-miercoles-5-a-las-1850-hrs-161719-rec.jpg",
+      "precio": "199",
+      "descripcion": "Poster de mario Bros ",
+      "id": "cfd21b88-e1d1-402f-b422-922cef97ba06"
+    },
+    {
+      "nombre": "Tasa de Super man",
+      "categoria": "tasas",
+      "img": "https://toysfurlong.com/27511-medium_default/superman-taza-ceramica.jpg",
+      "precio": "40",
+      "descripcion": "Tasa nas resistente que tu en la noche",
+      "id": "51f207f6-d15d-456a-8789-0c695d83a467"
+    },
+    {
+      "nombre": "Tasa de Garfiel",
+      "categoria": "tasas",
+      "img": "data:image/jpeg;base64,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",
+      "precio": "65",
+      "descripcion": "Tasa de Garfiel de oro de 50 kilates",
+      "id": "e0cf4f66-3456-42ab-81e3-5ddff23eeba0"
+    },
+    {
+      "nombre": "Tasa de RED",
+      "categoria": "tasas",
+      "img": "https://cdn.s7.shopdisney.eu/is/image/DisneyStoreES/465032483830",
+      "precio": "54",
+      "descripcion": "Tasa tomada por Red",
+      "id": "571f256d-1492-4d73-9b72-3a00b2bb852c"
+    },
+    {
+      "nombre": "Tasa de la bella y bestia",
+      "categoria": "tasas",
+      "img": "https://i.pinimg.com/originals/05/c0/ab/05c0ab7826858fd6f4406ebf08557753.jpg",
+      "precio": "84",
+      "descripcion": "conjunto de tasas de juguete",
+      "id": "cbbd5e4a-e271-4ecc-930e-207ea2e524bf"
     }
   ]
 }
